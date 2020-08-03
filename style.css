@@ -93,3 +93,36 @@ nav {
     width: 45px;
     height: 23px;
 }
+
+form {
+    height: 80%;
+    border: #a7a7a7 1px solid;
+    border-bottom: none;
+    background-color: #FFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    height: 20%;
+}
+
+.form-header h1 {
+    font-size: 1.4rem;
+}
+
+.form-header p {
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+.form-header a {
+    font-size: .8rem;
+    color: #0077C5;
+}
